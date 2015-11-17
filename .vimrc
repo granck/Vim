@@ -16,8 +16,13 @@ set splitright
 "gives 2 lines instead of 1 for command line at bottom of screen"
 set cmdheight=2
 
+"Allows code suggestion/completion by pressing ctrl-n"
 filetype plugin on
 set omnifunc=syntaxcomplete#Complete
+
+"Show matching brackets when text indicator is over them"
+set showmatch
+set mat=2
 
 syntax enable
 colorscheme monokai 
