@@ -54,10 +54,13 @@ syntax enable
 colorscheme monokai 
 
 "#######################
-"Remapping keys
+"Remapping keys/functions
 "#######################
 
 "Moves vertically by every visual line, if 1 line of code wraps multiple
 "lines, it will treat each VISUAL line as a separate line
 nnoremap j gj
 nnoremap k gk
+
+"Places data on clipboard that can be used in other applications
+set clipboard=unnamed
