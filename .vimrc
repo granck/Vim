@@ -62,5 +62,11 @@ colorscheme monokai
 nnoremap j gj
 nnoremap k gk
 
+"Copy and paste from other applications using Ctrl-y and Ctrl-p
+nnoremap <C-y> "+y
+vnoremap <C-y> "+y
+nnoremap <C-p> "+gP
+vnoremap <C-p> "+gP
+
 "Places data on clipboard that can be used in other applications
 set clipboard=unnamed
